@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Geologica', sans-serif;
+}
+body{
+    background-color: rgba(228, 228, 228, 0.612);
+    margin: 0%;
+}
+h1{
+    background-color: white;
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 30%;
+    margin: 0%;
+    font-size: 25px;
+    font-weight: 800;
+}
+.post {
+    width: 40%;
+    display: block;
+    margin-top: 55px;
+    margin-bottom: 5px;
+    position: relative;
+    left: 30%;   
+}
+
+.title {
+    background-color: white;
+    width: 100%;
+    font-size: medium;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    display: flex;
+}
+
+.title h2{
+    font-size: medium;
+    padding-left: 8px;
+    padding-top: 5px;
+    margin: 0px auto 0px 0px;
+
+}
+.title span{
+    font-size: small;
+    color: rgba(128, 128, 128, 0.750);
+    padding-top: 6px;
+    padding-right: 5px;
+    text-align: right;
+    justify-content: right;
+}
+
+img {
+    z-index:2;
+    display: block;
+    width: 100%; 
+}
+.caption{
+    margin-top: 0px;
+    margin-bottom: 2px;
+    background-color: white;
+    padding: 5px;
+    
+}
+.caption p{
+    font-size: small;
+    padding: 8px 0px 8px 8px;
+    margin: auto;
+    border-top: 1px solid rgba(228,228,228,0.775);
+}
+.caption  span {
+    color: rgb(51, 120, 240);
+    font-weight: bold;
+}
+
+.caption span:hover{
+    text-decoration: underline;
+}
+
